@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.7
 
 RUN apt-get update
 RUN apt-get install -y cmake libudev-dev libxrandr-dev python3-dev swig git
